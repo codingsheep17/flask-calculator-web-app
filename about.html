@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{url_for('static', filename='footer.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        /* Moody color theme (dark modern look) */
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            /* deep moody background */
+            color: #e4e4e4;
+            /* soft white for readability */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Prevent collapsing with navbar & footer */
+        main {
+            padding: 4rem 1rem;
+            /* top & bottom spacing */
+            min-height: calc(100vh - 160px);
+            /* keeps distance from navbar/footer */
+        }
+
+        /* Section styling */
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h1,
+        h2 {
+            color: #f0f0f0;
+        }
+
+        h1 {
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+        }
+
+        h2 {
+            border-left: 4px solid #0ef;
+            padding-left: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: #c9c9c9;
+            line-height: 1.6;
+        }
+
+        /* Lists */
+        ul {
+            padding-left: 1.2rem;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+            color: #d1d1d1;
+        }
+
+        /* Links */
+        a {
+            color: #0ef;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #08c;
+        }
+
+        /* Cards/sections with contrast */
+        .col-md-6 {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+        }
+
+        /* Footer (assuming your footer is styled separately in layout) */
+        footer {
+            background: #1a1a1a;
+            color: #aaa;
+            padding: 1rem;
+            text-align: center;
+            border-top: 1px solid #333;
+        }
+    </style>
+    <title>About - Calculator</title>
+</head>
+<main>
+    <main class="container my-5">
+        <section class="text-center mb-5">
+            <h1 class="display-4 fw-bold">About Our Calculator Web App</h1>
+            <p class="lead text-muted">
+                This calculator web application is built using <strong>Python Flask</strong>, <strong>Jinja2</strong>,
+                <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Bootstrap</strong>.
+                It allows users to perform fast and accurate <em>basic arithmetic operations</em> including
+                addition, subtraction, multiplication, and division.
+            </p>
+        </section>
+
+        <section class="row g-4">
+            <div class="col-md-6">
+                <h2 class="h4 fw-semibold">Why This App?</h2>
+                <p>
+                    Our mission is to provide a lightweight, responsive, and user-friendly calculator
+                    accessible on both desktop and mobile devices. With a clean interface and
+                    easy navigation, you can calculate instantly without unnecessary distractions.
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <h2 class="h4 fw-semibold">Features</h2>
+                <ul class="list-unstyled">
+                    <li>✔️ Perform basic operations (Add, Subtract, Multiply, Divide)</li>
+                    <li>✔️ Login and Signup functionality</li>
+                    <li>✔️ Calculator history to review past calculations</li>
+                    <li>✔️ Responsive Bootstrap design for all devices</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <h2 class="h4 fw-semibold">Navigation</h2>
+            <p>
+                Use the navigation bar above to explore:
+            </p>
+            <ul>
+                <li><a>Home</a> – Start calculations quickly</li>
+                <li><a>About</a> – Learn more about this project</li>
+                <li><a>History</a> – View your calculation records</li>
+                <li><a>Login</a> / <a>Signup</a> – Manage
+                    your account</li>
+            </ul>
+        </section>
+
+        <section class="mt-5 text-center">
+            <p class="fw-light text-muted">
+                Developed with ❤️ by <strong>Syed Haseeb Shah</strong>.
+                Contact: <a href="mailto:codingsheep17@gmail.com">codingsheep17@gmail.com</a>
+            </p>
+        </section>
+    </main>
+
+</main>
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-left">
+        © SYED HASEEB SHAH
+    </div>
+    <div class="footer-center">
+        <a href="https://instagram.com/hxseeb._19" target="_blank">Instagram</a> |
+        <a href="https://www.linkedin.com/in/syedhaseebshah19/" target="_blank">LinkedIn</a> |
+        <a href="https://youtube.com/@codingsheep17" target="_blank">YouTube</a>
+    </div>
+    <div class="footer-right">
+        <p class="my-2"><strong>codingsheep17@gmail.com</strong></p>
+    </div>
+</footer>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

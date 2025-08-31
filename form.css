@@ -1,0 +1,28 @@
+/* FORM ONLY — scoped to login container */
+main.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* so form isn’t forced to center vertically */
+    padding: 60px 20px; /* pushes form down */
+}
+
+/* Login heading */
+main.login-page h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #3ee7ecd5; /* white to match dark navbar theme */
+    text-align: center;
+}
+
+/* Form card */
+main.login-page form {
+    background:  #121212;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
